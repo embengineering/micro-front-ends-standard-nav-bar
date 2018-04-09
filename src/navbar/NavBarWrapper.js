@@ -9,7 +9,7 @@ class NavBarWrapper extends React.Component {
         { active: true, label: 'Tally', href: 'http://embengineering.com/micro-front-ends-web-tools/' },
         { active: false, label: 'Statistics', href: 'https://github.com/404' }
       ],
-      title: 'Another Tool'
+      title: 'Web Tools'
     }
   }
   render() {
