@@ -6,8 +6,8 @@ class NavBarWrapper extends React.Component {
     super(props);
     this.state = {
       items: [
-        { active: true, label: 'Tally', href: '/' },
-        { active: false, label: 'Statistics', href: '/' }
+        { active: true, label: 'Tally', href: 'http://embengineering.com/micro-front-ends-web-tools/' },
+        { active: false, label: 'Statistics', href: 'https://github.com/404' }
       ],
       title: 'Another Tool'
     }
