@@ -6,8 +6,8 @@ class NavBarWrapper extends React.Component {
     super(props);
     this.state = {
       items: [
-        { active: false, label: 'Tally', href: `${document.location.hostname}${document.location.pathname}/Tally` },
-        { active: false, label: '404 Page', href: `${document.location.hostname}${document.location.pathname}/404` }
+        { active: false, label: 'Tally', href: `${document.location.href}/Tally` },
+        { active: false, label: '404 Page', href: `${document.location.href}/404` }
       ],
       title: 'Web Tools'
     }
