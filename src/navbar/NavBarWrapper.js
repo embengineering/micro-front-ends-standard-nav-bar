@@ -6,21 +6,17 @@ class NavBarWrapper extends React.Component {
     super(props);
     this.state = {
       items: [
-        { active: true, label: 'Tally', href: '/Tally' },
+        { active: false, label: 'Tally', href: '/Tally' },
         { active: false, label: '404 Page', href: '/404' }
       ],
       title: 'Web Tools'
     }
   }
   render() {
-    return (
-      <div style={{marginBottom: 15}}>
-        <NavBar
-          title={this.state.title}
-          items={this.state.items}
-        />
-      </div>
-    );
+    return <NavBar
+        title={this.state.title}
+        items={this.state.items}
+      />;
   }
 }
 
