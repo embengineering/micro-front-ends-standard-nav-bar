@@ -1,5 +1,6 @@
 {
   "name": "standard-header",
+  "description": "Simple navigation bar using a web component and a React components",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://embengineering.com/micro-front-ends-standard-nav-bar",
